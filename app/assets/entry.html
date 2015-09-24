@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>test</title>
+		<title>Add</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,21 +16,21 @@
 	</head>
 	<body>
 		<header>
-			<div class="title">ToDo</div>
+			<div class="title">Add</div>
 		</header>
 		
 		<section id="container">
-			<ul>
-				<li>erster Eintrag</li>
-				<li>zweiter Eintrag</li>
-				<li>dritter Eintrag</li>
-				<li>vierter Eintrag</li>
-				<li>fünfter Eintrag</li>
-			</ul>
 			
-			<div class="button_container">
-				<button onclick='location.href = "entry.html"'>Add</button>
-			</div>
+			<form action="index.html">
+				<label>Text</label>
+				<textarea placeholder="dein eintrag"></textarea>
+				
+				<div class="button_container">
+					<button onclick='location.href = "entry.html"'>Save</button>
+				</div>
+			</form>
+			
+			
 		</section>
 		
 	</body>
