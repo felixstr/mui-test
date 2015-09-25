@@ -10,14 +10,14 @@ body, div, header, footer, p, section, form, button, ul, li {
 
 header {
 	width: 100vw;
-	height: 44px;
+	height: 64px;
 	background: #7cae4d;
 	position: fixed;
 }
 header  div.title {
 	position: absolute;
 	width: 100vw;
-	bottom: 5px;
+	bottom: 12px;
 	
 	text-align: center;
 	color: white;
@@ -29,12 +29,11 @@ section#container {
 	width: 100vw;
 	background: #ffffec;
 	min-height: 100vh;
-	padding-top: 44px;
+	padding-top: 64px;
 }
 
 section#container ul li {
 	padding: 20px 10px;
-	border-bottom: 1px solid #ccc;
 	font-size: 15px;	
 }
 section#container ul li:nth-child(odd) {
@@ -45,16 +44,19 @@ section#container .button_container {
 	text-align: center;
 	margin-top: 20px;
 }
-section#container .button_container button {
+section#container .button_container a {
 	background: none;
 	border: 1px solid #7cae4d;
-	width: 50px;
+	width: 300px;
 	height: 50px;
-	border-radius: 50%;
+	border-radius: 25px;
 	color: white;
 	background: #7cae4d;
-	font-size: 14px;
+	font-size: 20px;
 	text-transform: uppercase;
+	display: inline-block;
+	line-height: 50px;
+	text-decoration: none;
 }
 
 section#container form {
